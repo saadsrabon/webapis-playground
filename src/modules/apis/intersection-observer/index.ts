@@ -15,13 +15,14 @@ function init() {
 
   // Create an instance of IntersectionObserver API
   const observer = new IntersectionObserver(
-    (entries, observer) => {
+    entries => {
+      //you can addobserver herefor line 25
       entries.forEach(item => {
         if (item.isIntersecting) {
           let img = item.target as HTMLImageElement; // get each image
           img.src = img.dataset.src || ''; // change the image src
           img.style.width = '300px'; // added little bit animation
-          observer.unobserve(img); // if we don't want once
+          // observer.unobserve(img); // if we don't want once
         } else {
           let img = item.target as HTMLImageElement;
           img.src = '';

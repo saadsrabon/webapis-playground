@@ -21,11 +21,12 @@ function IntersectionObserver() {
         tw-items-center
       "
     >
+      <h2> Scroll To See the image Animations</h2>
       <div
         id="space"
         className="
-          tw-h-[800px]
-          tw-mb-[100px]
+          tw-h-[50px]
+          tw-mb-[50px]
         "
       />
 
