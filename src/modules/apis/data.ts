@@ -485,15 +485,16 @@ export const data: Array<Demo> = [
       'The Intersection Observer API provides a way to asynchronously observe changes in the intersection of a target element with an ancestor element or with a top-level document&#x27;s',
     meta: {
       author: {
-        name: 'Md Abul Hasnat Saad',
+        name: 'Saad Srabon',
         social: {
           email: 'saadsrabon2@gmail.com',
           github: 'saadsrabon',
           twitter: '',
         },
       },
-      apiDocURL: '',
-      canIUseURL: 'https://caniuse.com/?search&#x3D;intersection+observer',
+      apiDocURL:
+        'https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API',
+      canIUseURL: 'https://caniuse.com/intersectionobserver',
     },
   }, //replace item here
 ];
