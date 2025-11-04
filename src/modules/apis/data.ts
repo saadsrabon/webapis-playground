@@ -457,22 +457,43 @@ export const data: Array<Demo> = [
       apiDocURL: '',
       canIUseURL: 'https://caniuse.com/rtcpeerconnection',
     },
-  }, {
-  id: 'beacon-api', 
-  emoji: '📡',
-  title: 'Beacon API', 
-  description: 'The Beacon API is used to send an asynchronous and non-blocking request to a web server. The request does not expect a response. This demo shows how it works using an example.', 
-  meta: {
-    author: { 
-      name: 'Raúl',
-      social: {
-        email: 'raulfrancobouso@gmail.com', 
-        github: 'raulfb',
-        twitter: 'raulfb28',
-      },
-    },
-    apiDocURL: '',
-    canIUseURL: 'https://caniuse.com/?search&#x3D;beacon%20api', 
   },
-}, //replace item here
+  {
+    id: 'beacon-api',
+    emoji: '📡',
+    title: 'Beacon API',
+    description:
+      'The Beacon API is used to send an asynchronous and non-blocking request to a web server. The request does not expect a response. This demo shows how it works using an example.',
+    meta: {
+      author: {
+        name: 'Raúl',
+        social: {
+          email: 'raulfrancobouso@gmail.com',
+          github: 'raulfb',
+          twitter: 'raulfb28',
+        },
+      },
+      apiDocURL: '',
+      canIUseURL: 'https://caniuse.com/?search&#x3D;beacon%20api',
+    },
+  },
+  {
+    id: 'intersection-observer',
+    emoji: '👀 + 📡',
+    title: 'Intersection Observer Api',
+    description:
+      'The Intersection Observer API provides a way to asynchronously observe changes in the intersection of a target element with an ancestor element or with a top-level document&#x27;s',
+    meta: {
+      author: {
+        name: 'Md Abul Hasnat Saad',
+        social: {
+          email: 'saadsrabon2@gmail.com',
+          github: 'saadsrabon',
+          twitter: '',
+        },
+      },
+      apiDocURL: '',
+      canIUseURL: 'https://caniuse.com/?search&#x3D;intersection+observer',
+    },
+  }, //replace item here
 ];
